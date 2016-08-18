@@ -2,3 +2,6 @@
 2. sudo killall mongod
 3. mongod
 4. npm run dev
+
+input: in "Post man" send POST request to localhost:3090/signup address
+output: { "success": "true" }

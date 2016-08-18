@@ -1,2 +1,4 @@
 1. sudo npm install
-2. npm run dev
+2. sudo killall mongod
+3. mongod
+4. npm run dev

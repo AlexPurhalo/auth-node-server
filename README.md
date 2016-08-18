@@ -5,8 +5,5 @@
 5. npm run dev
 
 1. input: in "Post man" send POST request with valid data to localhost:3090/signup address
-2. then copy token's value from output
-3. choice GET request for localhost:3000
-4. go to headers section and add 'authorization' key with value of copied token
-output: object: { "hi": "there" }
-
+2. input: in "Post man" send POST request with same data that was ofr signingup for localhost:3090/signin address
+3. output: access token
